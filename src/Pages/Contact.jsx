@@ -6,7 +6,8 @@ const Contact = () => {
         <div className="contact">
             <div className="cardSecond">
                <div className="contactHeading">
-                     <a href="./"><h6>Close</h6></a>
+                     <a href="./" >Close</a>
+                    
                <div className="iamge">
                     <img className='profile' src={ProfilePhoto} alt="" srcset="" />
                 </div>

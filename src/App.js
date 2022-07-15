@@ -6,9 +6,9 @@ import Contact from './Pages/Contact';
 import Skills from './Pages/Skills';
 import {
   BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
+   Routes,
+   Route,
+   Link
 } from "react-router-dom";
 import Demo from './material ui/Demo';
 function App() {
@@ -23,7 +23,7 @@ function App() {
       </Routes>
     </Router>
         
-        
+  
     </div>
   );
 }

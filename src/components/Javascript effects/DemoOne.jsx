@@ -1,7 +1,7 @@
 import React from 'react'
 import './Demo.css'
 import {motion} from 'framer-motion'
-import {Link} from 'react-router-dom'
+
 const DemoOne = () => {
   return (
    <motion.div className="demoOne">

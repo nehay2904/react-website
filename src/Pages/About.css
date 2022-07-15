@@ -5,7 +5,7 @@
     height: 100vh;
 }
 
-.cardThird{
+.cardThird , .about{
     background-color: bisque;
     display: flex;
     width: 80%;

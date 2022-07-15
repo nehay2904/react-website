@@ -2,17 +2,21 @@ import React , {useState} from 'react'
 import './About.css'
 import {motion} from 'framer-motion'
 import {Link} from 'react-router-dom'
-const About = () => {
+
+const About = (props) => {
     const [click, setClick] = useState(true)
     const clickHandler =() =>{
         setClick(!click)
     }
+    
   return (
+    <>
+        
         <div className="about">
             <motion.div onClick={clickHandler} className={click ? "card cardThird" : 'card cardThird active' }>
                 <div className="heading">
                    <h1 className='aboutHeading'>About</h1>
-                   <a href="./"> <h2 className='aboutSubheading'>Close</h2></a>
+                    <a href="./"> <h2 className='aboutSubheading'>{props.title}</h2></a>
                 </div>
                 <div className="contentcard">
                 <div className="content">
@@ -22,7 +26,13 @@ const About = () => {
                 </div>
             </motion.div>
         
+        
         </div>
+        <div>
+            ffffffffff
+        </div>
+    </>
+      
     )
 }
 
